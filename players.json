@@ -1,0 +1,2022 @@
+[
+    {
+        "S.NO":1,
+        "FirstName":"Virat",
+        "SecondName":"Kohli",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":400
+    },
+    {
+        "S.NO":2,
+        "FirstName":"Mahendra Singh",
+        "SecondName":"Dhoni",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":400
+    },
+    {
+        "S.NO":3,
+        "FirstName":"Mitchell",
+        "SecondName":"Starc",
+        "Country":"Australia",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast ",
+        "BasePrice":400
+    },
+    {
+        "S.NO":4,
+        "FirstName":"Rohit",
+        "SecondName":"Sharma",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":400
+    },
+    {
+        "S.NO":5,
+        "FirstName":"Hardik",
+        "SecondName":"Pandya",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm fast-medium",
+        "BasePrice":350
+    },
+    {
+        "S.NO":6,
+        "FirstName":"Quinton",
+        "SecondName":"De Kock",
+        "Country":"South Africa",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":300
+    },
+    {
+        "S.NO":7,
+        "FirstName":"Glenn",
+        "SecondName":"Maxwell",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":300
+    },
+    {
+        "S.NO":8,
+        "FirstName":"Ben",
+        "SecondName":"Stokes",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":300
+    },
+    {
+        "S.NO":9,
+        "FirstName":"Andre",
+        "SecondName":"Russell",
+        "Country":"West Indies",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm fast",
+        "BasePrice":300
+    },
+    {
+        "S.NO":10,
+        "FirstName":"Ravindra",
+        "SecondName":"Jadeja",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"Left-arm orthodox",
+        "BasePrice":300
+    },
+    {
+        "S.NO":11,
+        "FirstName":"Suryakumar",
+        "SecondName":"Yadav",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":300
+    },
+    {
+        "S.NO":12,
+        "FirstName":"Jasprit",
+        "SecondName":"Bumrah",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm fast",
+        "BasePrice":300
+    },
+    {
+        "S.NO":13,
+        "FirstName":"Sanju",
+        "SecondName":"Samson",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":300
+    },
+    {
+        "S.NO":14,
+        "FirstName":"Kagiso",
+        "SecondName":"Rabada",
+        "Country":"South Africa",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":300
+    },
+    {
+        "S.NO":15,
+        "FirstName":"K L",
+        "SecondName":"Rahul",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":300
+    },
+    {
+        "S.NO":16,
+        "FirstName":"Pat",
+        "SecondName":"Cummins",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":300
+    },
+    {
+        "S.NO":17,
+        "FirstName":"Shikhar",
+        "SecondName":"Dhawan",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":300
+    },
+    {
+        "S.NO":18,
+        "FirstName":"Rashid",
+        "SecondName":"Khan",
+        "Country":"Afghanistan",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm legbreak",
+        "BasePrice":300
+    },
+    {
+        "S.NO":19,
+        "FirstName":"Jos",
+        "SecondName":"Buttler",
+        "Country":"England",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":300
+    },
+    {
+        "S.NO":20,
+        "FirstName":"Yuzvendra",
+        "SecondName":"Chahal",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":300
+    },
+    {
+        "S.NO":21,
+        "FirstName":"Faf",
+        "SecondName":"Du Plessis",
+        "Country":"South Africa",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":300
+    },
+    {
+        "S.NO":22,
+        "FirstName":"Ravichandran",
+        "SecondName":"Ashwin",
+        "Country":"Indian",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":300
+    },
+    {
+        "S.NO":23,
+        "FirstName":"Harshal",
+        "SecondName":"Patel",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":250
+    },
+    {
+        "S.NO":24,
+        "FirstName":"Johnny",
+        "SecondName":"Bairstow",
+        "Country":"England",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":250
+    },
+    {
+        "S.NO":25,
+        "FirstName":"Cameron",
+        "SecondName":"Green",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm medium",
+        "BasePrice":250
+    },
+    {
+        "S.NO":26,
+        "FirstName":"Shivam",
+        "SecondName":"Mavi",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":250
+    },
+    {
+        "S.NO":27,
+        "FirstName":"Daryl ",
+        "SecondName":"Mitchell",
+        "Country":"New Zealand",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm medium",
+        "BasePrice":250
+    },
+    {
+        "S.NO":28,
+        "FirstName":"Jofra",
+        "SecondName":"Archer",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":250
+    },
+    {
+        "S.NO":29,
+        "FirstName":"Marcus",
+        "SecondName":"Stoinis",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm medium",
+        "BasePrice":250
+    },
+    {
+        "S.NO":30,
+        "FirstName":"Heinrich",
+        "SecondName":"Klaasen",
+        "Country":"South Africa",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right Arm off Break",
+        "BasePrice":250
+    },
+    {
+        "S.NO":31,
+        "FirstName":"Rishabh",
+        "SecondName":"Pant",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":250
+    },
+    {
+        "S.NO":32,
+        "FirstName":"David",
+        "SecondName":"Warner",
+        "Country":"Australia",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":250
+    },
+    {
+        "S.NO":33,
+        "FirstName":"Shubman ",
+        "SecondName":" Gill",
+        "Country":"India",
+        "Specialism":"   BATSMAN",
+        "Batting":"         RHB",
+        "BowlingStyle":"      Right-arm offbreak",
+        "BasePrice":200
+    },
+    {
+        "S.NO":34,
+        "FirstName":"Yashasvi ",
+        "SecondName":"Jaiswal",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":35,
+        "FirstName":"Harry",
+        "SecondName":"Brook",
+        "Country":"England",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":36,
+        "FirstName":"Mark",
+        "SecondName":"Wood",
+        "Country":"England",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":37,
+        "FirstName":"Aiden",
+        "SecondName":"Markram",
+        "Country":"South Africa",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":38,
+        "FirstName":"Anrich",
+        "SecondName":"Nortje",
+        "Country":"South Africa",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm-fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":39,
+        "FirstName":"Kane",
+        "SecondName":"Willamson",
+        "Country":"New Zealand",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":40,
+        "FirstName":"Chris",
+        "SecondName":"Lynn",
+        "Country":"Australia",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":200
+    },
+    {
+        "S.NO":41,
+        "FirstName":"Mustafizur",
+        "SecondName":"Rahman",
+        "Country":"Bangladesh",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":42,
+        "FirstName":"Tim",
+        "SecondName":"Southee",
+        "Country":"New Zealand",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":43,
+        "FirstName":"Ajinkya",
+        "SecondName":"Rahane",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":44,
+        "FirstName":"Ambati",
+        "SecondName":"Rayudu",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":45,
+        "FirstName":"David",
+        "SecondName":"Miller",
+        "Country":"South Africa",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":46,
+        "FirstName":"Arshdeep",
+        "SecondName":"Singh",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"Left-arm fast-medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":47,
+        "FirstName":"Josh",
+        "SecondName":"Hazlewood",
+        "Country":"Australia",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":48,
+        "FirstName":"Sunil",
+        "SecondName":"Narine",
+        "Country":"West Indies",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"Right-arm offbreak",
+        "BasePrice":200
+    },
+    {
+        "S.NO":49,
+        "FirstName":"Shreyas",
+        "SecondName":"Iyer",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":50,
+        "FirstName":"Krunal",
+        "SecondName":"Pandya",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":200
+    },
+    {
+        "S.NO":51,
+        "FirstName":"Venkatesh",
+        "SecondName":"Iyer",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"Right-arm medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":52,
+        "FirstName":"Mitchell",
+        "SecondName":"Marsh",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":53,
+        "FirstName":"Axar",
+        "SecondName":"Patel",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"Left-arm orthodox",
+        "BasePrice":200
+    },
+    {
+        "S.NO":54,
+        "FirstName":"Mohammed",
+        "SecondName":"Siraj",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":55,
+        "FirstName":"Shakib",
+        "SecondName":"Al Hasan",
+        "Country":"Bangladesh",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":200
+    },
+    {
+        "S.NO":56,
+        "FirstName":"Sam",
+        "SecondName":"Curran",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":57,
+        "FirstName":"Odean",
+        "SecondName":"Smith",
+        "Country":"West Indies",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":58,
+        "FirstName":"Liam",
+        "SecondName":"Livingstone",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":59,
+        "FirstName":"Mohammad",
+        "SecondName":"Shami",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":60,
+        "FirstName":"Rachin",
+        "SecondName":"Ravindra",
+        "Country":"New Zealand",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"Left-arm orthodox",
+        "BasePrice":200
+    },
+    {
+        "S.NO":61,
+        "FirstName":"Marco",
+        "SecondName":"Jansen",
+        "Country":"South Africa",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"Left Arm Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":62,
+        "FirstName":"Devdutt",
+        "SecondName":"Padikkal",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":63,
+        "FirstName":"Jason",
+        "SecondName":"Roy",
+        "Country":"England",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":64,
+        "FirstName":"Lockie",
+        "SecondName":"Fergusson",
+        "Country":"New Zealand",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":65,
+        "FirstName":"Shimron",
+        "SecondName":"Hetmyer",
+        "Country":"West Indies",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":66,
+        "FirstName":"Shahrukh",
+        "SecondName":"Khan",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":67,
+        "FirstName":"Martin",
+        "SecondName":"Guptill",
+        "Country":"New Zealand",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":68,
+        "FirstName":"Varun",
+        "SecondName":"Chakravarthy",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm legbreak",
+        "BasePrice":200
+    },
+    {
+        "S.NO":69,
+        "FirstName":"David",
+        "SecondName":"Willey",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":70,
+        "FirstName":"Robin",
+        "SecondName":"Uthappa",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":71,
+        "FirstName":"Nathan",
+        "SecondName":"Coulter-Nile",
+        "Country":"Australia",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":72,
+        "FirstName":"Shardul",
+        "SecondName":"Thakur",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":73,
+        "FirstName":"Steve",
+        "SecondName":"Smith",
+        "Country":"Australia",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":74,
+        "FirstName":"Bhuvneshwar",
+        "SecondName":"Kumar",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":75,
+        "FirstName":"Matthew",
+        "SecondName":"Wade",
+        "Country":"Australia",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":76,
+        "FirstName":"Sam",
+        "SecondName":"Billings",
+        "Country":"England",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":77,
+        "FirstName":"Jason",
+        "SecondName":"Holder",
+        "Country":"West Indies",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":200
+    },
+    {
+        "S.NO":78,
+        "FirstName":"Trent",
+        "SecondName":"Boult",
+        "Country":"New Zealand",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":79,
+        "FirstName":"Dinesh",
+        "SecondName":"Karthik",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":80,
+        "FirstName":"Will",
+        "SecondName":"Jacks",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm offbreak",
+        "BasePrice":200
+    },
+    {
+        "S.NO":81,
+        "FirstName":"Wanindu",
+        "SecondName":"Hasaranga",
+        "Country":"Sri Lanka",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":82,
+        "FirstName":"Moeen",
+        "SecondName":"Ali",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"Right-arm offbreak",
+        "BasePrice":200
+    },
+    {
+        "S.NO":83,
+        "FirstName":"Rilee",
+        "SecondName":"Russow",
+        "Country":"South African",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":84,
+        "FirstName":"Ishan",
+        "SecondName":"Kishan",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":85,
+        "FirstName":"Adam",
+        "SecondName":"Zampa",
+        "Country":"Australia",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":200
+    },
+    {
+        "S.NO":86,
+        "FirstName":"Deepak",
+        "SecondName":"Chahar",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":200
+    },
+    {
+        "S.NO":87,
+        "FirstName":"Ruturaj",
+        "SecondName":"Gaikwad",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":200
+    },
+    {
+        "S.NO":88,
+        "FirstName":"Umesh",
+        "SecondName":"Yadav",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":150
+    },
+    {
+        "S.NO":89,
+        "FirstName":"Chris",
+        "SecondName":"Woakes",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":150
+    },
+    {
+        "S.NO":90,
+        "FirstName":"Philip",
+        "SecondName":"Salt",
+        "Country":"England",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm offbreak",
+        "BasePrice":150
+    },
+    {
+        "S.NO":91,
+        "FirstName":"Travis",
+        "SecondName":"Head",
+        "Country":"Australia",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"Right-arm offbreak",
+        "BasePrice":150
+    },
+    {
+        "S.NO":92,
+        "FirstName":"Rahul",
+        "SecondName":"Tewatia",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":93,
+        "FirstName":"Glenn",
+        "SecondName":"Phillips",
+        "Country":"New Zealand",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":94,
+        "FirstName":"Jaydev",
+        "SecondName":"Unadkat",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":150
+    },
+    {
+        "S.NO":95,
+        "FirstName":"Alex",
+        "SecondName":"Hales",
+        "Country":"England",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":150
+    },
+    {
+        "S.NO":96,
+        "FirstName":"Tom",
+        "SecondName":"Curran",
+        "Country":"England",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":150
+    },
+    {
+        "S.NO":97,
+        "FirstName":"James",
+        "SecondName":"Neesham",
+        "Country":"New Zealand",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":150
+    },
+    {
+        "S.NO":98,
+        "FirstName":"Colin",
+        "SecondName":"Munro",
+        "Country":"New Zealand",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Medium",
+        "BasePrice":150
+    },
+    {
+        "S.NO":99,
+        "FirstName":"Adil",
+        "SecondName":"Rashid",
+        "Country":"England",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":100,
+        "FirstName":"Dawid",
+        "SecondName":"Malan",
+        "Country":"England",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":101,
+        "FirstName":"Kuldeep",
+        "SecondName":"Yadav",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Unorthodox",
+        "BasePrice":150
+    },
+    {
+        "S.NO":102,
+        "FirstName":"T.",
+        "SecondName":"Natarajan",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast",
+        "BasePrice":150
+    },
+    {
+        "S.NO":103,
+        "FirstName":"Amit",
+        "SecondName":"Mishra",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":104,
+        "FirstName":"Nicholas",
+        "SecondName":"Pooran",
+        "Country":"West Indies",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":150
+    },
+    {
+        "S.NO":105,
+        "FirstName":"Washington",
+        "SecondName":"Sundar",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":106,
+        "FirstName":"Ravi",
+        "SecondName":"Bishnoi",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm legbreak",
+        "BasePrice":150
+    },
+    {
+        "S.NO":107,
+        "FirstName":"Prithivi",
+        "SecondName":"Shaw",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":150
+    },
+    {
+        "S.NO":108,
+        "FirstName":"Nitish",
+        "SecondName":"Rana",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":150
+    },
+    {
+        "S.NO":109,
+        "FirstName":"Jason",
+        "SecondName":"Behrendoff",
+        "Country":"South Africa",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":120
+    },
+    {
+        "S.NO":110,
+        "FirstName":"Chris",
+        "SecondName":"Jordan",
+        "Country":"England",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":null,
+        "BasePrice":100
+    },
+    {
+        "S.NO":111,
+        "FirstName":"Lungisani",
+        "SecondName":"Ngidi",
+        "Country":"South Africa",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":112,
+        "FirstName":"Umran",
+        "SecondName":"Malik",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right-arm-fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":113,
+        "FirstName":"Kumar",
+        "SecondName":"Khusarga",
+        "Country":"Indian",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":114,
+        "FirstName":"Daniel",
+        "SecondName":"Sams",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":115,
+        "FirstName":"Mujeeb",
+        "SecondName":"Rahman ",
+        "Country":"Afghanistan",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":116,
+        "FirstName":"Mayank",
+        "SecondName":"Agarwal",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":117,
+        "FirstName":"Manish",
+        "SecondName":"Pandey",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":118,
+        "FirstName":"Wriddhiman",
+        "SecondName":"Saha",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":119,
+        "FirstName":"Avesh",
+        "SecondName":"Khan",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":120,
+        "FirstName":"Navdeep",
+        "SecondName":"Saini",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":121,
+        "FirstName":"Kusal",
+        "SecondName":"Mendis",
+        "Country":"Sri Lanka",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":122,
+        "FirstName":"Prasidh",
+        "SecondName":"Krishna",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":123,
+        "FirstName":"Rishi",
+        "SecondName":"Dhawan",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":124,
+        "FirstName":"Deepak",
+        "SecondName":"Hooda",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":125,
+        "FirstName":"Rajat",
+        "SecondName":"Patidar",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":126,
+        "FirstName":"Evin",
+        "SecondName":"Lewis",
+        "Country":"West Indies",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":127,
+        "FirstName":"Rahul",
+        "SecondName":"Chahar",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":128,
+        "FirstName":"K.S.",
+        "SecondName":"Bharat",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":129,
+        "FirstName":"Niroshan",
+        "SecondName":"Dickwella",
+        "Country":"Sri Lanka",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":130,
+        "FirstName":"Chetan",
+        "SecondName":"Sakariya",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":131,
+        "FirstName":"Prabhsimran",
+        "SecondName":"Singh",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":132,
+        "FirstName":"Shivam",
+        "SecondName":"Dube",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":133,
+        "FirstName":"Marnus",
+        "SecondName":"Labuschagne",
+        "Country":"Australia",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":134,
+        "FirstName":"Rovman",
+        "SecondName":"Powell",
+        "Country":"West Indies",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":135,
+        "FirstName":"Kamlesh",
+        "SecondName":"Nagarkoti",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":136,
+        "FirstName":"Piyush",
+        "SecondName":"Chawla",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":137,
+        "FirstName":"Sherfane",
+        "SecondName":"Rutherford",
+        "Country":"West Indies",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":138,
+        "FirstName":"Dhruv",
+        "SecondName":"Jurel",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":139,
+        "FirstName":"Jayant",
+        "SecondName":"Yadav",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":140,
+        "FirstName":"Devon",
+        "SecondName":"Conway",
+        "Country":"New Zealand",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":141,
+        "FirstName":"Mohammad",
+        "SecondName":"Nabi",
+        "Country":"Afghanistan",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":142,
+        "FirstName":"Moises",
+        "SecondName":"Henriques",
+        "Country":"Australia",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":143,
+        "FirstName":"Tom",
+        "SecondName":"Latham",
+        "Country":"New Zealand",
+        "Specialism":"wiCKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":144,
+        "FirstName":"Mitchell",
+        "SecondName":"Santner",
+        "Country":"New Zealand",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":100
+    },
+    {
+        "S.NO":145,
+        "FirstName":"Abhishek",
+        "SecondName":"Sharma",
+        "Country":"Indian",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":146,
+        "FirstName":"Joshua",
+        "SecondName":"Philippe",
+        "Country":"Australia",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":147,
+        "FirstName":"Shai",
+        "SecondName":"Hope",
+        "Country":"West Indies",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":148,
+        "FirstName":"Rahmanullah",
+        "SecondName":"Gurbaz",
+        "Country":"Afghanistan",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":100
+    },
+    {
+        "S.NO":149,
+        "FirstName":"Shreyas",
+        "SecondName":"Gopal",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":150,
+        "FirstName":"Rassie",
+        "SecondName":"Van Der Dussen",
+        "Country":"South Africa",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":151,
+        "FirstName":"Harpreet",
+        "SecondName":"Brar",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEft ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":152,
+        "FirstName":"Nuwan",
+        "SecondName":"Thusara",
+        "Country":"Srilanka",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":153,
+        "FirstName":"Rahul",
+        "SecondName":"Tripathi",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Medium",
+        "BasePrice":100
+    },
+    {
+        "S.NO":154,
+        "FirstName":"Alzari",
+        "SecondName":"Joseph",
+        "Country":"West Indies",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right arm fast",
+        "BasePrice":100
+    },
+    {
+        "S.NO":155,
+        "FirstName":"Tilak ",
+        "SecondName":"Varma",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"LEft ARM Off Spin",
+        "BasePrice":100
+    },
+    {
+        "S.NO":156,
+        "FirstName":"Riyan",
+        "SecondName":"Parag",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":157,
+        "FirstName":"Kedar",
+        "SecondName":"Jadhav",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":158,
+        "FirstName":"Mukesh",
+        "SecondName":"Kumar",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right Arm Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":159,
+        "FirstName":"N.",
+        "SecondName":"Jagadeesan",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":160,
+        "FirstName":"Siddharth",
+        "SecondName":"Kaul",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":161,
+        "FirstName":"Mohit",
+        "SecondName":"Sharma",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":162,
+        "FirstName":"Sandeep",
+        "SecondName":"Warrier",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":50
+    },
+    {
+        "S.NO":163,
+        "FirstName":"Mandeep",
+        "SecondName":"Singh",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":164,
+        "FirstName":"Akshdeep",
+        "SecondName":"Nath",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":165,
+        "FirstName":"Hanuma",
+        "SecondName":"Vihari",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":166,
+        "FirstName":"Mayank",
+        "SecondName":"Markande",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":167,
+        "FirstName":"Ish",
+        "SecondName":"Sodhi",
+        "Country":"New Zealand",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":168,
+        "FirstName":"Gurkeerat",
+        "SecondName":"Singh",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM OFF Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":169,
+        "FirstName":"Pawan",
+        "SecondName":"Negi",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":50
+    },
+    {
+        "S.NO":170,
+        "FirstName":"Shahbaz",
+        "SecondName":"Nadeem",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":50
+    },
+    {
+        "S.NO":171,
+        "FirstName":"Keemo",
+        "SecondName":"Paul",
+        "Country":"West Indies",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":50
+    },
+    {
+        "S.NO":172,
+        "FirstName":"Karn",
+        "SecondName":"Sharma",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":173,
+        "FirstName":"Abdul",
+        "SecondName":"Samad",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":174,
+        "FirstName":"Najibullah",
+        "SecondName":"Zadran",
+        "Country":"Afghanistan",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":175,
+        "FirstName":"Manoj",
+        "SecondName":"Tiwary",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":176,
+        "FirstName":"Syed Khaleel",
+        "SecondName":"Ahmed",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Fast",
+        "BasePrice":50
+    },
+    {
+        "S.NO":177,
+        "FirstName":"Kusal",
+        "SecondName":"Perera",
+        "Country":"Sri Lanka",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":178,
+        "FirstName":"Karun",
+        "SecondName":"Nair",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":179,
+        "FirstName":"Basil",
+        "SecondName":"Thampi",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":180,
+        "FirstName":"Rahul",
+        "SecondName":"Sharma",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":181,
+        "FirstName":"Ishant",
+        "SecondName":"Sharma",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":50
+    },
+    {
+        "S.NO":182,
+        "FirstName":"Tim",
+        "SecondName":"Seifert",
+        "Country":"New Zealand",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":183,
+        "FirstName":"Sandeep",
+        "SecondName":"Sharma",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":184,
+        "FirstName":"Mukesh",
+        "SecondName":"Choudhary",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"LEFT ARM Fast Medium",
+        "BasePrice":50
+    },
+    {
+        "S.NO":185,
+        "FirstName":"Rinku",
+        "SecondName":"Singh",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":186,
+        "FirstName":"Jitesh ",
+        "SecondName":"sharma",
+        "Country":"india",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":187,
+        "FirstName":"Suyash ",
+        "SecondName":"Prabhudesai",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":50
+    },
+    {
+        "S.NO":188,
+        "FirstName":"Sai",
+        "SecondName":"Sudharsan",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":50
+    },
+    {
+        "S.NO":189,
+        "FirstName":"Mahipal",
+        "SecondName":"Lomror",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":40
+    },
+    {
+        "S.NO":190,
+        "FirstName":"Kartik",
+        "SecondName":"Tyagi",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":20
+    },
+    {
+        "S.NO":191,
+        "FirstName":"Shreevats",
+        "SecondName":"Goswami",
+        "Country":"India",
+        "Specialism":"WICKETKEEPER",
+        "Batting":"LHB",
+        "BowlingStyle":"-",
+        "BasePrice":20
+    },
+    {
+        "S.NO":192,
+        "FirstName":"Jagadeesha",
+        "SecondName":"Suchith",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"LEFT ARM Slow Orthodox",
+        "BasePrice":20
+    },
+    {
+        "S.NO":193,
+        "FirstName":"Rahul",
+        "SecondName":"Shukla",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":20
+    },
+    {
+        "S.NO":194,
+        "FirstName":"Pardeep",
+        "SecondName":"Sahu",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":20
+    },
+    {
+        "S.NO":195,
+        "FirstName":"Manan",
+        "SecondName":"Vohra",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":20
+    },
+    {
+        "S.NO":196,
+        "FirstName":"Ankit Singh",
+        "SecondName":"Rajpoot",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Fast Medium",
+        "BasePrice":20
+    },
+    {
+        "S.NO":197,
+        "FirstName":"Tushar",
+        "SecondName":"Deshpande",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"LHB",
+        "BowlingStyle":"RIGHT ARM Fast",
+        "BasePrice":20
+    },
+    {
+        "S.NO":198,
+        "FirstName":"Murugan",
+        "SecondName":"Ashwin",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":20
+    },
+    {
+        "S.NO":199,
+        "FirstName":"Ishank",
+        "SecondName":"Jaggi",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"-",
+        "BasePrice":20
+    },
+    {
+        "S.NO":200,
+        "FirstName":"Pravin",
+        "SecondName":"Dubey",
+        "Country":"India",
+        "Specialism":"ALL-ROUNDER",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Leg Spin",
+        "BasePrice":20
+    },
+    {
+        "S.NO":201,
+        "FirstName":"Priyam",
+        "SecondName":"Garg",
+        "Country":"India",
+        "Specialism":"BATSMAN",
+        "Batting":"RHB",
+        "BowlingStyle":"RIGHT ARM Off Spin",
+        "BasePrice":20
+    },
+    {
+        "S.NO":202,
+        "FirstName":"Akash",
+        "SecondName":"Madhwal",
+        "Country":"India",
+        "Specialism":"BOWLER",
+        "Batting":"RHB",
+        "BowlingStyle":"Right arm fast ",
+        "BasePrice":20
+    }
+]
