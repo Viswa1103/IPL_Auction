@@ -1,7 +1,7 @@
 let playerData = [];
 let visitedPlayers = new Set();
 
-const playerNumber = document.getElementById("playerNumber");
+const playerPoints = document.getElementById("playerPoints");
 const playerName = document.getElementById("playerName");
 const playerCountry = document.getElementById("playerCountry");
 const playerSpecialism = document.getElementById("playerSpecialism");
@@ -10,28 +10,15 @@ const playerBowlingStyle = document.getElementById("playerBowlingStyle");
 const playerBasePrice = document.getElementById("playerBasePrice");
 const playersAuctioned = document.getElementById("playersAuctioned");
 const remainingPlayers = document.getElementById("remainingPlayers");
-const remainingPlayersList = document.getElementById("remainingPlayersList");
 
 async function loadPlayerData() {
     const response = await fetch("players.json");
     playerData = await response.json();
-    updateRemainingPlayersList();
-}
-
-function updateRemainingPlayersList() {
-    remainingPlayersList.innerHTML = "";
-    playerData.forEach((_, index) => {
-        if (!visitedPlayers.has(index + 1)) {
-            const listItem = document.createElement("li");
-            listItem.textContent = `Player #${index + 1}`;
-            remainingPlayersList.appendChild(listItem);
-        }
-    });
 }
 
 function generateRandomPlayer() {
     if (visitedPlayers.size === playerData.length) {
-        playerNumber.textContent = "Auction Over!";
+        playerPoints.textContent = "Auction Over!";
         playerName.textContent = "";
         playerCountry.textContent = "";
         playerSpecialism.textContent = "";
@@ -51,13 +38,14 @@ function generateRandomPlayer() {
 
     playersAuctioned.textContent = visitedPlayers.size;
     remainingPlayers.textContent = playerData.length - visitedPlayers.size;
-
-    updateRemainingPlayersList();
 }
 
 function displayPlayerDetails(playerIndex) {
     const player = playerData[playerIndex - 1];
 
+    const randomPoints = Math.floor(Math.random() * 7) * 5 + 20;
+
+    playerPoints.textContent = `Points: ${randomPoints}`;
     playerName.innerHTML = `Name:<br><br>${player.FirstName} ${player.SecondName}`;
     playerCountry.innerHTML = `Country:<br><br>${player.Country}`;
     playerSpecialism.innerHTML = `Specialism:<br><br>${player.Specialism}`;
@@ -68,17 +56,15 @@ function displayPlayerDetails(playerIndex) {
 
 function resetAuction() {
     visitedPlayers.clear();
-    playerNumber.textContent = "";
+    playerPoints.textContent = "";
     playerName.textContent = "Welcome to the Auction!";
-    playerCountry.textContent = "Click 'Generate Player' to start.";
+    playerCountry.textContent = "Click here to start.";
     playerSpecialism.textContent = "";
     playerBatting.textContent = "";
     playerBowlingStyle.textContent = "";
     playerBasePrice.textContent = "";
     playersAuctioned.textContent = 0;
     remainingPlayers.textContent = playerData.length;
-
-    updateRemainingPlayersList();
 }
 
 loadPlayerData();
