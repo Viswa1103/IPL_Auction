@@ -29,9 +29,21 @@
         <div class="player-details">
             <div id="playerBatting" class="player-info"></div>
             <div id="playerBowlingStyle" class="player-info"></div>
-            <div id="playerBasePrice" class="player-info"></div>
+            <div id="basePriceDisplay" class="player-info"></div>
+        </div>
+        <hr>
+        <div class="price-controls">
+            <button class="button increment-btn" onclick="increasePrice()">Increase Price</button>
+            <button class="button decrement-btn" onclick="decreasePrice()">Decrease Price</button>
+        </div>
+        <hr>
+        <div class="sell-player">
+            <label for="teamSelect">Sell to Team:</label>
+            <select id="teamSelect"></select>
+            <button class="button sell-btn" onclick="sellPlayer()">Sell Player</button>
         </div>
     </div>
+    <div id="teamStats" class="team-stats"></div>
 
     <script src="script.js"></script>
 </body>
