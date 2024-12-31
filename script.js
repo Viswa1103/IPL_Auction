@@ -1,7 +1,7 @@
 let playerData = [];
 let visitedPlayers = new Set();
 let teams = [];
-let totalPlayers = 202;
+let totalPlayers = 459;
 
 const playerPoints = document.getElementById("playerPoints");
 const playerName = document.getElementById("playerName");
@@ -16,10 +16,16 @@ const teamStats = document.getElementById("teamStats");
 const teamSelect = document.getElementById("teamSelect");
 
 let currentBasePrice = 0;
+let currentPlayerIndex = 0;
 
 async function loadPlayerData() {
-    const response = await fetch("players.json");
-    playerData = await response.json();
+    try {
+        const response = await fetch("players.json");
+        playerData = await response.json();
+        playerData.sort((a, b) => a.SNO - b.SNO); // Sort players by SNO
+    } catch (error) {
+        console.error("Error loading player data:", error);
+    }
 }
 
 function initializeTeams() {
@@ -75,37 +81,42 @@ function updateAuctionStats() {
     remainingPlayers.textContent = totalPlayers - visitedPlayers.size;
 }
 
-function generateRandomPlayer() {
+function generatePlayer() {
     if (visitedPlayers.size === playerData.length) {
         playerPoints.textContent = "Auction Over!";
         clearPlayerDetails();
         return;
     }
 
-    let randomNumber;
-    do {
-        randomNumber = Math.floor(Math.random() * playerData.length) + 1;
-    } while (visitedPlayers.has(randomNumber));
+    while (visitedPlayers.has(currentPlayerIndex)) {
+        currentPlayerIndex++;
+        if (currentPlayerIndex >= playerData.length) {
+            playerPoints.textContent = "Auction Over!";
+            clearPlayerDetails();
+            return;
+        }
+    }
 
-    visitedPlayers.add(randomNumber);
-    displayPlayerDetails(randomNumber);
+    visitedPlayers.add(currentPlayerIndex);
+    displayPlayerDetails(currentPlayerIndex);
+    currentPlayerIndex++;
 
     updateAuctionStats();
     saveData();
 }
 
 function displayPlayerDetails(playerIndex) {
-    const player = playerData[playerIndex - 1];
+    const player = playerData[playerIndex];
 
     const randomPoints = Math.floor(Math.random() * 7) * 5 + 20;
 
     playerPoints.textContent = `Points: ${randomPoints}`;
-    playerName.innerHTML = `Name:<br><br>${player.FirstName} ${player.SecondName}`;
+    playerName.innerHTML = `Name:<br><br>${player["First Name"]} ${player.Surname}`;
     playerCountry.innerHTML = `Country:<br><br>${player.Country}`;
     playerSpecialism.innerHTML = `Specialism:<br><br>${player.Specialism}`;
-    playerBatting.innerHTML = `Batting:<br><br>${player.Batting}`;
-    playerBowlingStyle.innerHTML = `Bowling Style:<br><br>${player.BowlingStyle}`;
-    currentBasePrice = player.BasePrice;
+    playerBatting.innerHTML = `Batting:<br><br>${player["Batting "]}`;
+    playerBowlingStyle.innerHTML = `Bowling Style:<br><br>${player["Bowling style"]}`;
+    currentBasePrice = player["BASE(RS - L)"];
     updateBasePriceDisplay();
 }
 
@@ -119,21 +130,13 @@ function clearPlayerDetails() {
 }
 
 function increasePrice() {
-    if (currentBasePrice <= 100) {
-        currentBasePrice += 20;
-    } else {
-        currentBasePrice += 25;
-    }
+    currentBasePrice += 25;
     updateBasePriceDisplay();
 }
 
 function decreasePrice() {
-    if (currentBasePrice > 20) {
-        if (currentBasePrice <= 100) {
-            currentBasePrice -= 20;
-        } else {
-            currentBasePrice -= 25;
-        }
+    if (currentBasePrice > 25) {
+        currentBasePrice -= 25;
         updateBasePriceDisplay();
     }
 }
@@ -165,6 +168,7 @@ function resetAuction() {
     playerPoints.textContent = "";
     playersAuctioned.textContent = 0;
     remainingPlayers.textContent = totalPlayers;
+    currentPlayerIndex = 0;
     initializeTeams();
 }
 
