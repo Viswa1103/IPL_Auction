@@ -1,7 +1,9 @@
 let playerData = [];
 let visitedPlayers = new Set();
 let teams = [];
-let totalPlayers = 459;
+let totalPlayers = 0;
+let shuffledPlayers = [];
+let otherPlayers = [];
 
 const playerPoints = document.getElementById("playerPoints");
 const playerName = document.getElementById("playerName");
@@ -16,13 +18,33 @@ const teamStats = document.getElementById("teamStats");
 const teamSelect = document.getElementById("teamSelect");
 
 let currentBasePrice = 0;
-let currentPlayerIndex = 0;
 
 async function loadPlayerData() {
     try {
         const response = await fetch("players.json");
-        playerData = await response.json();
-        playerData.sort((a, b) => a.SNO - b.SNO); // Sort players by SNO
+        const allPlayers = await response.json();
+        totalPlayers = allPlayers.length;
+
+        const rangePlayers = allPlayers.filter(player => player.SNO >= 1 && player.SNO <= 78);
+        otherPlayers = allPlayers.filter(player => player.SNO < 1 || player.SNO > 78);
+
+        for (let i = rangePlayers.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [rangePlayers[i], rangePlayers[j]] = [rangePlayers[j], rangePlayers[i]];
+        }
+
+        shuffledPlayers = rangePlayers;
+
+        playerData = [...shuffledPlayers, ...otherPlayers];
+
+        const storedVisitedPlayers = localStorage.getItem("visitedPlayers");
+        if (storedVisitedPlayers) {
+            visitedPlayers = new Set(JSON.parse(storedVisitedPlayers));
+        }
+
+        updateAuctionStats();
+
+        console.log("Player Data Loaded:", playerData);
     } catch (error) {
         console.error("Error loading player data:", error);
     }
@@ -30,20 +52,17 @@ async function loadPlayerData() {
 
 function initializeTeams() {
     const storedTeams = localStorage.getItem("teams");
-    const storedVisitedPlayers = localStorage.getItem("visitedPlayers");
 
     if (storedTeams) {
         teams = JSON.parse(storedTeams);
-        visitedPlayers = new Set(JSON.parse(storedVisitedPlayers || "[]"));
         updateTeamStats();
         populateTeamDropdown();
-        updateAuctionStats();
     } else {
         const teamCount = prompt("Enter the number of teams:");
         teams = [];
         for (let i = 0; i < teamCount; i++) {
             const teamName = prompt(`Enter the name of Team ${i + 1}:`);
-            teams.push({ name: teamName, purse: 10000 });
+            teams.push({ name: teamName, purse: 15000 });
         }
         updateTeamStats();
         populateTeamDropdown();
@@ -82,32 +101,28 @@ function updateAuctionStats() {
 }
 
 function generatePlayer() {
-    if (visitedPlayers.size === playerData.length) {
-        playerPoints.textContent = "Auction Over!";
+    if (playerData.length === 0) {
+        playerPoints.textContent = "Auction Over! No more players available.";
         clearPlayerDetails();
         return;
     }
 
-    while (visitedPlayers.has(currentPlayerIndex)) {
-        currentPlayerIndex++;
-        if (currentPlayerIndex >= playerData.length) {
-            playerPoints.textContent = "Auction Over!";
-            clearPlayerDetails();
-            return;
-        }
+    const availablePlayers = playerData.filter(player => !visitedPlayers.has(player.SNO));
+
+    if (availablePlayers.length === 0) {
+        playerPoints.textContent = "Auction Over! All players have been visited.";
+        clearPlayerDetails();
+        return;
     }
 
-    visitedPlayers.add(currentPlayerIndex);
-    displayPlayerDetails(currentPlayerIndex);
-    currentPlayerIndex++;
-
+    const nextPlayer = availablePlayers[0];
+    visitedPlayers.add(nextPlayer.SNO);
+    displayPlayerDetails(nextPlayer);
     updateAuctionStats();
     saveData();
 }
 
-function displayPlayerDetails(playerIndex) {
-    const player = playerData[playerIndex];
-
+function displayPlayerDetails(player) {
     const randomPoints = Math.floor(Math.random() * 7) * 5 + 20;
 
     playerPoints.textContent = `Points: ${randomPoints}`;
@@ -168,7 +183,7 @@ function resetAuction() {
     playerPoints.textContent = "";
     playersAuctioned.textContent = 0;
     remainingPlayers.textContent = totalPlayers;
-    currentPlayerIndex = 0;
+    loadPlayerData();
     initializeTeams();
 }
 
