@@ -62,7 +62,7 @@ function initializeTeams() {
         teams = [];
         for (let i = 0; i < teamCount; i++) {
             const teamName = prompt(`Enter the name of Team ${i + 1}:`);
-            teams.push({ name: teamName, purse: 15000 });
+            teams.push({ name: teamName, purse: 12000 });
         }
         updateTeamStats();
         populateTeamDropdown();
